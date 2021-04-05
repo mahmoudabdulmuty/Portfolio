@@ -1,12 +1,18 @@
 body{
     background-color: #f1f1f1;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    color: #002538;
 }
+.nav-item a{
+	transition: 300ms;
+	color: #002538!important;
+}
+.nav-item a:hover{
+	 background-color: #000;
+	 color: #fff!important;
+}
+
 .header__logo img {
-    height: auto;
-    max-height: 40px;
+    max-height: 65px;
 }
 
 .intro__title strong{
