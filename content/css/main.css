@@ -1,4 +1,14 @@
-img {
+body{
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header__logo img {
     height: auto;
     max-height: 40px;
+}
+
+.intro__title strong{
+    display: block;
 }
