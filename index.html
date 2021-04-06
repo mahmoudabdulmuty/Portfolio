@@ -5,7 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="content/assets/images/favicon.png" type="image/x-icon">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="content\assets\images\favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="content\assets\images\favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="content\assets\images\favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="content\assets\images\favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="content\assets\images\favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="content\assets\images\favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="content\assets\images\favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="content\assets\images\favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="content\assets\images\favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="content\assets\images\favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="content\assets\images\favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="content\assets\images\favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="content\assets\images\favicon/favicon-16x16.png">
+    <link rel="manifest" href="content\assets\images\favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="content\assets\images\favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <!-- Normailze CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <!-- Font Awesome -->
@@ -18,30 +35,29 @@
 </head>
 
 <body>
-    <!-- header start -->
-    <header class="py-3 mb-4">
-        <div class="container d-flex justify-content-between">
+    <!-- Header start -->
+    <header class="header">
+        <div class="container d-flex justify-content-between py-3 mb-4">
             <div class="header__logo">
                 <a href="#">
-                    <img src="content/assets/images/logo.jpg" alt="">
+                    <img src="content/assets/images/logo.png" alt="logo-img">
                 </a>
             </div>
             <ul class="nav nav-pills d-flex align-items-center">
                 <li class="nav-item"><a href="#about" class="nav-link lead">About</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link lead">Skills</a></li>
                 <li class="nav-item"><a href="#work" class="nav-link lead">Work</a></li>
-                <li class="nav-item"><a href="#" class="nav-link lead"
-                        target="_blank">Blog</a></li>
+                <li class="nav-item"><a href="#" class="nav-link lead" target="_blank">Blog</a></li>
                 <li class="nav-item"><a href="links.html" class="nav-link lead">Links</a></li>
             </ul>
         </div>
     </header>
-    <!-- header end -->
-    <!-- main start -->
+    <!-- Header end -->
+    <!-- Main start -->
     <main>
         <!-- Introduction start -->
-        <section class="intro my-5 py-5">
-            <div class="container">
+        <section class="intro">
+            <div class="container my-5 py-5">
                 <div class="row justify-content-center">
                     <div class="intro__img">
                         <img src="content/assets/images/profile_image.png" alt="introduction-img">
@@ -57,12 +73,39 @@
             </div>
         </section>
         <!-- Introduction end -->
+        <!-- Skills start -->
+        <section class="skills">
+            <div class="container py-5">
+                <div class="skills__title text-center text-light">
+                    <h2 class="display-4">Skills</h2>
+                </div>
+                <div class="row justify-content-around mt-5 ">
+                    <i class="fab fa-5x fa-html5"></i>
+                    <i class="fab fa-5x fa-css3-alt"></i>
+                    <i class="fab fa-5x fa-bootstrap"></i>
+                    <i class="fab fa-5x fa-js"></i>
+                    <i class="fab fa-5x fa-github"></i>
+                </div>
+                <div class="skills__work text-center mt-5">
+                    <a href="#work" class="btn btn-outline-secondary py-3 px-5 text-uppercase">my work</a>
+                </div>
+            </div>
+        </section>
+        <!-- Skills end -->
+
+
+
+
+
+
+
     </main>
-    <!-- main end -->
+    <!-- Main end -->
+    <!-- Footer start -->
+    <footer class="footer">
 
-
-
-
+    </footer>
+    <!-- Footer end -->
     <!-- Bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
     <!-- Cusotm JS -->

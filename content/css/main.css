@@ -1,20 +1,48 @@
-body{
+body {
     background-color: #f1f1f1;
     color: #002538;
+    font-family: 'open sans', sans-serif;
 }
-.nav-item a{
-	transition: 300ms;
-	color: #002538!important;
+/* Header start*/
+.nav-item a {
+    transition: 300ms;
+    color: #002538 !important;
 }
-.nav-item a:hover{
-	 background-color: #000;
-	 color: #fff!important;
+
+.nav-item a:hover {
+    background-color: #000;
+    color: #fff !important;
 }
 
 .header__logo img {
     max-height: 65px;
 }
-
-.intro__title strong{
+/* Header end*/
+/* Intro start*/
+.intro__title strong {
     display: block;
 }
+/* Intro end*/
+/* Skills start*/
+.skills{
+    background-color: #000;
+}
+.fa-html5{
+    color: #e54d26;
+}
+.fa-css3-alt{
+    color: #3d8fc6;
+}
+.fa-js{
+    color: #f0db4f;
+}
+.fa-bootstrap{
+    color: #59407f;
+}
+.fa-github{
+    color: #fff;
+}
+.skills__work .btn:hover {
+    transform: scale(1.1);
+}
+/* Skills end*/
