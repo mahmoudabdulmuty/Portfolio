@@ -1,102 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- favicon.io -->
-    <link rel="apple-touch-icon" sizes="180x180" href="content/assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="content/assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="content/assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="content/assets/images/favicon/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="content/assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="content/assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="content/assets/images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="content/assets/images/favicon/site.webmanifest"
+    />
     <!-- Normailze CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="content/css/main.css">
+    <link rel="stylesheet" href="content/css/main.css" />
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Header start -->
     <header class="header">
-        <div class="container d-flex justify-content-between py-3 mb-4">
-            <div class="header__logo">
-                <a href="#">
-                    <img src="content/assets/images/logo.png" alt="logo-img">
-                </a>
-            </div>
-            <ul class="nav nav-pills d-flex align-items-center">
-                <li class="nav-item"><a href="#about" class="nav-link lead">About</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link lead">Skills</a></li>
-                <li class="nav-item"><a href="#work" class="nav-link lead">Work</a></li>
-                <li class="nav-item"><a href="#" class="nav-link lead" target="_blank">Blog</a></li>
-                <li class="nav-item"><a href="links.html" class="nav-link lead">Links</a></li>
-            </ul>
+      <div class="container d-flex justify-content-between py-3 mb-4">
+        <div class="header__logo">
+          <a href="#">
+            <img src="content/assets/images/logo.png" alt="logo-img" />
+          </a>
         </div>
+        <ul class="nav nav-pills d-flex align-items-center">
+          <li class="nav-item">
+            <a href="#about" class="nav-link lead">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link lead">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work" class="nav-link lead">Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link lead" target="_blank">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="links.html" class="nav-link lead">Links</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <!-- Header end -->
     <!-- Main start -->
     <main>
-        <!-- Introduction start -->
-        <section class="intro">
-            <div class="container my-5 py-5">
-                <div class="row justify-content-center">
-                    <div class="intro__img">
-                        <img src="content/assets/images/profile_image.png" alt="introduction-img">
-                    </div>
-                    <div class="intro__details">
-                        <h1 class="intro__title">Hi, I am
-                            <strong>Mahmoud Abdulmuty</strong>
-                        </h1>
-                        <p class="lead">Front-end Developer</p>
-                        <a href="#contact" class="btn btn-outline-dark">Contact</a>
-                    </div>
-                </div>
+      <!-- Introduction start -->
+      <section class="intro">
+        <div class="container my-5 py-5">
+          <div class="row justify-content-center">
+            <div class="intro__img">
+              <img
+                src="content/assets/images/profile_image.png"
+                alt="introduction-img"
+              />
             </div>
-        </section>
-        <!-- Introduction end -->
-        <!-- Skills start -->
-        <section class="skills">
-            <div class="container py-5">
-                <div class="skills__title text-center text-light">
-                    <h2 class="display-4">Skills</h2>
-                </div>
-                <div class="row justify-content-around mt-5 ">
-                    <i class="fab fa-5x fa-html5"></i>
-                    <i class="fab fa-5x fa-css3-alt"></i>
-                    <i class="fab fa-5x fa-bootstrap"></i>
-                    <i class="fab fa-5x fa-js"></i>
-                    <i class="fab fa-5x fa-github"></i>
-                </div>
-                <div class="skills__work text-center mt-5">
-                    <a href="#work" class="btn btn-outline-secondary py-3 px-5 text-uppercase">my work</a>
-                </div>
+            <div class="intro__details">
+              <h1 class="intro__title">
+                Hi, I am
+                <strong>Mahmoud Abdulmuty</strong>
+              </h1>
+              <p class="lead">Front-end Developer</p>
+              <a href="#contact" class="btn btn-outline-dark">Contact</a>
             </div>
-        </section>
-        <!-- Skills end -->
-
-
-
-
-
-
-
+          </div>
+        </div>
+      </section>
+      <!-- Introduction end -->
+      <!-- Skills start -->
+      <section class="skills">
+        <div class="container py-5">
+          <div class="skills__title text-center text-light">
+            <h2 class="display-4">Skills</h2>
+          </div>
+          <div class="row justify-content-around mt-5">
+            <i class="fab fa-5x fa-html5"></i>
+            <i class="fab fa-5x fa-css3-alt"></i>
+            <i class="fab fa-5x fa-bootstrap"></i>
+            <i class="fab fa-5x fa-sass"></i>
+            <i class="fab fa-5x fa-js"></i>
+            <i class="fab fa-5x fa-github"></i>
+          </div>
+          <div class="skills__work text-center mt-5">
+            <a
+              href="#work"
+              class="btn btn-outline-secondary py-3 px-5 text-uppercase"
+              >my work</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Skills end -->
+      <!-- About-Me start -->
+      <section class="about-me">
+        <div
+          class="container d-flex align-items-center justify-content-between my-5"
+        >
+          <div class="about-me__left-part">
+            <div class="about-me__title">
+              <h2 class="display-4">About me</h2>
+              <p class="lead">Front-end Engineer</p>
+            </div>
+            <div class="about-me__body">
+              <p>
+                Hi, I am Mahmoud Abdulmuty. I am an aspiring front-end
+                Engineer,from Egypt. I spend my time on personal projects and
+                learning more about HTML, CSS and JavaScript. I am interested in
+                remote work as well as freelance work. If you have an idea for a
+                website or want to upgrade your current website contact me and
+                we can discuss your options.
+              </p>
+            </div>
+          </div>
+          <div class="about-me__right-part">
+            <img
+              src="content/assets/images/JSNinja.png"
+              alt="JavaScript-Ninja"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- About-Me end -->
     </main>
     <!-- Main end -->
     <!-- Footer start -->
-    <footer class="footer">
-
-    </footer>
+    <footer class="footer"></footer>
     <!-- Footer end -->
     <!-- Bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
     <!-- Cusotm JS -->
     <script src="content/js/main.js"></script>
-</body>
-
+  </body>
 </html>
