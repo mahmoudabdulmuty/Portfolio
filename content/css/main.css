@@ -1,14 +1,25 @@
+/* * {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+} */
 body {
   background-color: #f1f1f1;
   color: #002538;
   font-family: 'open sans', sans-serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
 }
 /* Header start*/
 .nav-item a {
   transition: 300ms;
   color: #002538 !important;
 }
-
 .nav-item a:hover {
   background-color: #000;
   color: #fff !important;
@@ -24,7 +35,8 @@ body {
 }
 /* Intro end*/
 /* Skills start*/
-.skills {
+.skills,
+.contact {
   background-color: #000;
 }
 .fa-html5 {
@@ -43,7 +55,7 @@ body {
   color: #cd679a;
 }
 .fa-github {
-  color: #fff;
+  color: #fafafa;
 }
 .skills__work .btn:hover {
   transform: scale(1.1);
@@ -54,3 +66,25 @@ body {
   height: 500px;
 }
 /* About-me end*/
+/* contact start */
+.social-list-icon {
+  margin: 0 1rem;
+}
+.fa-youtube {
+  color: #c4302b;
+}
+.fa-instagram {
+  color: #8a3ab9;
+}
+.fa-linkedin {
+  color: #0077b5;
+}
+.fa-twitter {
+  color: #00acee;
+}
+/* contact end */
+.footer p {
+  color: #fff;
+  margin: 0;
+  padding: 0.5rem 2rem;
+}
