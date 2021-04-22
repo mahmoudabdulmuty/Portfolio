@@ -36,7 +36,8 @@ li {
 /* Intro end*/
 /* Skills start*/
 .skills,
-.contact {
+.contact,
+.work {
   background-color: #000;
 }
 .fa-html5 {
